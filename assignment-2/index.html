@@ -7,49 +7,63 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>  
+
+
    <header> <!--name-->
-         <h1>Lana khdair</h1>
+         <h1>Lana khdair</h1>  
     </header> 
- 
 
     <!-- the list -->
-    <nav> </nav>
-
+    <nav>  
+    <ul>
+     <li> <a  href="#one"> About me</a></li>
+     <li><a href="#hobbies"> Hobbies</a></li>
+     <li><a href="#form"> Guessing</a></li>
+     <li> <a href="#two"> what i'am looking for</a></li>
+     <li><a href="#footer"> Previous project</a></li>
+    </ul> 
+    </nav>
+ 
     <main>
     
-        <artical>    
+        <artical id="one">  
+        
          <!--about myself-->
         <p>Hi i'm lana, i'm 19 years old, and i'm from Palestine,actully i'm studying software engineering in A-Najah-University.<br>
             Recently, I've been focused on improving my skills in programming </p>
         
-        <!--list of hobbies with links--> 
-        <h3>Some of my hobbies</h3>
-        <ul>
+        <!--list of hobbies with links-->
+        <h2 id="hobbies">Some of my hobbies :</h2>  
+        <ul> 
             <li> <a href="https://en.wikipedia.org/wiki/Drawing">Drawing</a> </li> 
-            <img src="./drawing.png" alt="image here">
             <li> <a href="https://en.wikipedia.org/wiki/Basketball">Playing basketball</a> </li>
-            <img src="./basketball.png" alt="image here">
             <li> <a href="https://en.wikipedia.org/wiki/Photography">Photography </a> </li>
-            <img src="./photograghy.png" alt="image here">
+           
+        
         </ul>
-                
         </artical>
 
-        <form>  <!-- form -->
-        <label>Guess what my favorite hobby :</label> <input type="text">
+        <form id="form">  <!-- form -->
+        <label>Guess what my favorite hobby :</label> <input type="text"> 
         </form>
 
-       <artical>
-        <!--about what i want to be //  My goal is to build a career in marketing -->
+       <artical id="two">
+        <P>My goal is to build a career in ......</P> 
        </artical>
-   
-       
-
+    
     </main>  
     
-    <footer> 
-        <!--link to a project-->
+    <aside>
+       <img src="./drawing.png" alt="image here"  width="240px" height="">
+       <img src="./basketball.png" alt="image here" width="240px" height="260px">
+       <img src="./photograghy.png" alt="image here" width="240px"> 
+    </aside>  
+    <footer id="footer"> 
+     <p>This is a link of a previous project if you would like to watch: </p>
+      <a href="https://github.com/Lana-Khdair/web-assignments/tree/main/The%20Mini%20Gallery">Project</a>
+     <p>Thank you <3 </p>
     </footer>
+
 
  
 
