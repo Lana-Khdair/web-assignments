@@ -1,20 +1,26 @@
-.box {
-    display : flex ;
-    flex-direction: row;
-    justify-content:space-around;
-    align-items:center;
-    
-    }
-    h2 {
-         display : flex ;
-         font-style: italic;
-         color: #253f7c;
-         font-size:400%;
-         justify-content: center;  
-         align-items: center;   
-    
-       
-    }
+
     body{
         background-color: #77A6C0;
+    }
+    h1{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .card{
+        
+        background-color: antiquewhite;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin:30px;
+    }
+    .contineer{
+
+        display: grid;
+        grid-template-columns: repeat(auto-fit,minmax(300px,1fr));
+        gap:20px;
+        justify-content: center;
+        
+
     }
